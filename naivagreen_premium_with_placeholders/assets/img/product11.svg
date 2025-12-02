@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1200" viewBox="0 0 2000 1200">
-<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#f3f8f2"/><stop offset="1" stop-color="#eaf6ea"/></linearGradient></defs>
-<rect width="100%" height="100%" fill="url(#g)"/>
-<g font-family="Segoe UI, Arial" fill="#0f3f25" text-anchor="middle">
-<text x="50%" y="50%" font-size="120" font-weight="700">Eggplant Seedlings</text>
-<text x="50%" y="62%" font-size="44" fill="#6b6b6b">High-resolution product image placeholder</text>
-</g>
-</svg>
