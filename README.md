@@ -1,1 +1,0 @@
-# naivagreen-propagators.com
