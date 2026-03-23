@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naivagreen Propagator Ltd | Premium Seedlings Kenya</title>
+<meta name="description" content="Naivagreen Propagator Ltd - Premium Spinach & Tomato Seedlings in Naivasha, Kenya. Healthy, high-yield seedlings for farmers.">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+<h2>NAIVAGREEN</h2>
+<div>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<img src="images/spinach.jpg" class="active">
+<img src="images/tomato.jpg">
+<div>
+<h1>Premium Seedling Production in Kenya</h1>
+<p>Certified healthy seedlings for farmers across Kenya</p>
+<a href="https://wa.me/254729526873" class="btn">Order via WhatsApp</a>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Naivagreen Propagator Ltd | 0729 526 873</p>
+</footer>
+
+<script>
+let slides=document.querySelectorAll('.hero img');
+let current=0;
+setInterval(()=>{slides[current].classList.remove('active');current=(current+1)%slides.length;slides[current].classList.add('active');},4000);
+</script>
+
+</body>
+</html>
